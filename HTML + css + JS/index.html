@@ -5,41 +5,54 @@
 </head>
 <body>
   <div>
+    <form id="tableForm">
+      <input type="text" id="tagInput" placeholder="Tag" />
+      <input type="text" id="descInput" placeholder="Description" />
+      <input type="submit" value="Add Row" />
+    </form>
     <table>
       <thead>
         <tr>
           <th>Tag</th>
           <th>Description</th>
+          <th>Action</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>p</td>
           <td>Defines a paragraph.</td>
+          <td><button class="remove">Remove</button></td>
         </tr>
         <tr>
           <td>div</td>
           <td>Defines a section in a document.</td>
+          <td><button class="remove">Remove</button></td>
         </tr>
         <tr>
           <td>table</td>
           <td>Defines a table.</td>
+          <td><button class="remove">Remove</button></td>
         </tr>
         <tr>
           <td>a</td>
           <td>Defines a hyperlink.</td>
+          <td><button class="remove">Remove</button></td>
         </tr>
         <tr>
           <td>img</td>
           <td>Defines an image.</td>
+          <td><button class="remove">Remove</button></td>
         </tr>
         <tr>
           <td>input</td>
           <td>Defines an input control.</td>
+          <td><button class="remove">Remove</button></td>
         </tr>
         <tr>
           <td>button</td>
           <td>Defines a button.</td>
+          <td><button class="remove">Remove</button></td>
         </tr>
       </tbody>
     </table>
