@@ -14,3 +14,7 @@ td {
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+img {
+  width: 400px; /* or any size you want */
+  height: auto; /* maintain aspect ratio */
+}
